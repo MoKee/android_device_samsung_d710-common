@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-COMMON_PATH := device/samsung/galaxys2-common
+COMMON_PATH := device/samsung/d710-common
 
 DEVICE_PACKAGE_OVERLAYS := $(COMMON_PATH)/overlay
 
@@ -188,4 +188,4 @@ TARGET_OMX_PATH := hardware/samsung/exynos/multimedia/openmax
 $(call inherit-product, hardware/samsung/exynos4210.mk)
 
 # Include non-open-source parts
-$(call inherit-product, vendor/samsung/galaxys2-common/common-vendor.mk)
+$(call inherit-product, vendor/samsung/d710-common/common-vendor.mk)
